@@ -46,7 +46,7 @@ ul:last-child{
     width: 913px;
     bottom: 0;
     left: 0;
-    background-color: #fff;
+    background-color:#fff;
 }
 .smallgreen{
     position: absolute;
@@ -58,14 +58,32 @@ ul:last-child{
 }
 .textposition{
     position: absolute;
-    height: 100px;
-    width: 450px;
+    /* height: 100px; */
+    /* width: 450px; */
     transform: rotate(45deg);
-    bottom: 220px;
-    left: 30px;
+    bottom: 340px;
+    left: 5px;
 
 }
 .textposition p{
-    font-size: 30px;
+    font-size: 42px;
+    color:#FFFF00;
 }
-
+.readmore{
+    position: absolute;
+    bottom: 45px;
+    left: 820px;
+}
+.readmore p{
+    font-size: 14px;
+    color:#39B54A;
+}
+.created{
+    position: absolute;
+    bottom: 52px;
+    right: 52px;
+}
+.created p{
+    font-size: 14px;
+    color:#FFFF00 ;
+}
