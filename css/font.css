@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'MaShanZheng-Regular';
+  src: url(../fonts/'MaShanZheng-Regular.eot');
+  src: url(../fonts/'MaShanZheng-Regular.eot?#iefix') format('embedded-opentype'),
+       url(../fonts/'MaShanZheng-Regular.svg#MaShanZheng-Regular') format('svg'),
+       url(../fonts/'MaShanZheng-Regular.woff') format('woff'),
+       url(../fonts/'MaShanZheng-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

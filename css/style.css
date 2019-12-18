@@ -1,0 +1,71 @@
+ body{
+    height:100%;
+    width: 100%;
+}
+h1{
+    font-size: 18px;
+    text-align: center;
+    padding: 0 0 5px 0;
+}
+body{
+    font-family: 'Ma Shan Zheng', cursive;
+}
+body{
+    position: relative;
+    padding: 10px 40px 40px 40px;
+    
+}
+.green-section{
+    background-color:#22B573;
+}
+.navbar li{
+    display: inline-block;
+    margin-right: 45px;
+    padding: 30px 0 0 36px;
+}
+ul:last-child{
+    margin-right: 0;
+}
+.navbar li a{
+    font-size: 48px;
+    color: #fff;
+}
+.logo{
+    float: right;
+    width: 1240px;
+    padding: 37px 21px 0 0;
+}
+.green-section::after{
+    content: "";
+    clear: right;
+    display: block;
+}
+.whitebox{
+    position: absolute;
+    height: 685px;
+    width: 913px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+}
+.smallgreen{
+    position: absolute;
+    height: 418px;
+    width: 418px;
+    bottom: 120px;
+    left: 141px;
+    background-color:#006837;
+}
+.textposition{
+    position: absolute;
+    height: 100px;
+    width: 450px;
+    transform: rotate(45deg);
+    bottom: 220px;
+    left: 30px;
+
+}
+.textposition p{
+    font-size: 30px;
+}
+
