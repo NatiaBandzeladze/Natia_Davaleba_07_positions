@@ -34,6 +34,7 @@ ul:last-child{
     float: right;
     width: 1240px;
     padding: 37px 21px 0 0;
+    z-index: 1;
 }
 .green-section::after{
     content: "";
@@ -47,6 +48,14 @@ ul:last-child{
     bottom: 0;
     left: 0;
     background-color:#fff;
+    z-index: 2;
+}
+.whitebox:hover .readmore{
+    position: absolute;
+    bottom: 45px;
+    left: 760px;
+    color: red;
+
 }
 .smallgreen{
     position: absolute;
@@ -55,6 +64,14 @@ ul:last-child{
     bottom: 120px;
     left: 141px;
     background-color:#006837;
+    z-index: 3;
+}
+.smallgreen:hover{
+    background-color:#FFFF00;
+}
+.textposition:hover{
+    color: #C1272D;
+    transform: rotate(0deg);
 }
 .textposition{
     position: absolute;
@@ -63,9 +80,7 @@ ul:last-child{
     transform: rotate(45deg);
     bottom: 340px;
     left: 5px;
-
-}
-.textposition p{
+    z-index: 4;
     font-size: 42px;
     color:#FFFF00;
 }
@@ -73,8 +88,7 @@ ul:last-child{
     position: absolute;
     bottom: 45px;
     left: 820px;
-}
-.readmore p{
+    z-index: 4;
     font-size: 14px;
     color:#39B54A;
 }
@@ -82,8 +96,7 @@ ul:last-child{
     position: absolute;
     bottom: 52px;
     right: 52px;
-}
-.created p{
+    z-index: 2;
     font-size: 14px;
     color:#FFFF00 ;
 }
