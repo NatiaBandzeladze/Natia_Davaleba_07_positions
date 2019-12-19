@@ -9,12 +9,10 @@ h1{
 }
 body{
     font-family: 'Ma Shan Zheng', cursive;
-}
-body{
-    position: relative;
     padding: 10px 40px 40px 40px;
 }
 .green-section{
+    position: relative;
     background-color:#22B573;
 }
 .navbar li{
